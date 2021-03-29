@@ -1,46 +1,67 @@
 <!doctype html>
 <html>
-
 <head>
   <title>자빱TV 컨텐츠 정리</title>
   <meta charset="utf-8">
   <style>
-  .body{
+  .bunny {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
+    margin-left: 0;
+    margin-right: 440px;
+    float: right;
   }
-  .ul{
-    text-align: center;
+  .ul {
     list-style-type: none;
     margin-top: : 50px;
-    margin-left: 657px;
-    padding : 1px;
+    padding : 0;
     width : 200px;
     background-color: #f1f1f1;
   }
-  .li a {
+  .li {
+    display : block;
+    color: #000;
+    padding: 8px 16px;
     text-decoration: none;
   }
+  .li a {
+    text-align: center;
+    text-decoration: none;
+    color : black;
+  }
+  .li:nth-child(1) {
+    background-color: darkgrey
+  }
+
   .li:hover {
     background-color: white;
+  }
+
+  .ul2 {
+   list-style-position: inside;
+  }
+
+  .li2 a{
+    text-decoration: none;
+    color:black;
   }
   </style>
 
 </head>
 
 <body>
-  <div class = "body">
-  <h1>자빱TV</h1>
-    <img src="자빱로고.png" width="20%"><br><br>
-    <a href="https://www.youtube.com/channel/UCwT_iMjmRsnAitwgpaR1Tqw" target="_blank" title="자빱TV채널 바로가기">
-      <strong><u>게임과 이야기가 함께하는 자빱TV</u></strong></a>  <br><br>
-    <i>월드페이머스 서터리머.</i> 다양한 게임을 소화하는 종합 게임 스트리머로, <br> 현재의 주력콘텐츠는 마인크래프트를 활용한 다양한 스토리물이다.
-    <br>
+<div class=bunny>
+<h2>빱라임씬</h2>
+<img src="빱라임씬.png" width="500px"><br>
+  <ol class = ul2>
+    <li class = li2><a href="빱라1.html"> P&C 로펌 살인사건</a></li>
+    <li class = li2><a href="빱라2.html"> 부덕리 흉가의 비밀</a></li>
+    <li class = li2><a href="빱라3.html"> 산타살인사건</a></li>
+  </ol>
+</div>
 
-  <h2>컨텐츠 보러가기</h2>
+<nav>
   <ul class = ul>
+    <li class = li><a href="index.html"> 자빱TV</a></li>
     <li class = li><a href="우정리.html"> 우정리노트</a></li>
     <li class = li><a href="토깽뎐.html"> 토깽뎐</a></li>
     <li class = li><a href="여걸세븐.html"> 여걸세븐</a></li>
@@ -50,8 +71,7 @@
     <li class = li><a href="서리사막.html"> 서리사막의 도둑들</a></li>
     <li class = li><a href="빱라임씬.html"> 빱라임씬</a></li>
   </ul>
-</div>
+</nav>
 
 </body>
-
 </html>
